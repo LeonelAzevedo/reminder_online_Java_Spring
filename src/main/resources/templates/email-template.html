@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Alerta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .greeting {
+            font-size: 18px;
+            font-weight: bold;
+            color: #00274d;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .message {
+            font-size: 16px;
+            font-weight: semi-bold;
+            color: #333;
+            border-left: 4px solid #007bff;
+            padding-left: 10px;
+            margin-top: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+        .footer img {
+            vertical-align: middle;
+            width: 120px;
+        }
+        .background-texture {
+            background: url('https://www.transparenttextures.com/patterns/diamond.png'); /* URL de uma textura de fundo sutil */
+        }
+    </style>
+</head>
+<body>
+<div class="container background-texture">
+    <p class="greeting">Olá, <span th:text="${name}">Nome</span></p>
+    <p class="highlight">Não esqueça do seu compromisso:</p>
+    <p class="message" th:text="${message}">Mensagem do e-mail</p>
+    <div class="footer">
+        <p>Atenciosamente,<br/>Lembrete Online</p>
+        <img class="logo" src="cid:logoReminderOnline" alt="Logo Reminder Online"/>
+    </div>
+</div>
+</body>
+</html>
