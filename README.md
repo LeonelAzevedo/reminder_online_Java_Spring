@@ -20,3 +20,8 @@ Vídeo demonstrativo: [https://www.youtube.com/watch?v=WE6S39tq9C4](https://yout
    
 
 ![telaLogin](https://github.com/user-attachments/assets/79519a9b-a55b-4e54-b18e-4165a2b33258)
+![telaCadastro](https://github.com/user-attachments/assets/113629d9-1e14-42b4-8a4d-fa05f5eb4dc4)
+![painelLembretes](https://github.com/user-attachments/assets/e9cfb8f9-64ef-4989-92d4-961fa578b635)
+![novoLembrete](https://github.com/user-attachments/assets/822860d8-4184-4bdd-b42d-d4955387b19f)
+![telaEdicao](https://github.com/user-attachments/assets/755b6150-6291-4d7b-84eb-c981b57462b5)
+![emailEnviado](https://github.com/user-attachments/assets/1bf29d7b-3f4b-4e0e-8b79-0510678787dd)
