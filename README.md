@@ -16,7 +16,7 @@ Bem-vindo ao projeto **Sistema de Lembrete Online**! Este sistema permite que us
 
 - **FrontEnd:** TypeScript - HTML - CSS - TailWindCSS - Bootstrap
 
-Vídeo demonstrativo: https://www.youtube.com/watch?v=WE6S39tq9C4
+Vídeo demonstrativo: [https://www.youtube.com/watch?v=WE6S39tq9C4](https://youtu.be/kYNkU2nnssU)
 
    
    
